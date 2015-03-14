@@ -1,7 +1,7 @@
 language: python
 python:
   - "2.7"
-script: make test
+script: python manage.py test
 notifications:
   email:
     recipients:
